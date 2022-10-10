@@ -6,49 +6,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Resume</title>
 </head>
 
 <body>
     <div>
-        <h1>Steve Chen</h1> <!--Comment-->
+        <h1>Steve Chen</h1>
+        <!--Comment-->
         <span>
-            <a href="www.linkedin.com/in/steve-chen-b08308250">LinkedIn</a>
-            <a href="https://github.com/Blacklotus89898">GitHub</a>
-            <a href="steve.chen@mail.mcgill.ca">Email</a> 
-            <a href="/extra.html">Learn more</a>
+            <a class="link" href="www.linkedin.com/in/steve-chen-b08308250">LinkedIn</a>
+            <a class="link" href="https://github.com/Blacklotus89898">GitHub</a>
+            <a class="link" href="mailto:steve.chen@mail.mcgill.ca">Email</a>
+            <a class="link" href="extra.html">Learn more</a>
 
         </span>
     </div>
+    
+    <h2>Skills</h2>
+    <div id="flex-container">
+        <div class="item">
 
-    <div>
-        Skills
-        <div>
-            <h2 class="skill">
+            <h3 class="skill">
 
                 Tech
             </h2>
             <ol>
                 <li>Languages</li>
+                <ol>
+                    <li>Python</li>
+                    <li>HTML, CSS and JS</li>
+                    <li></li>
+                </ol>
                 <li>Projects</li>
                 <li>Exprerience and knowledge</li>
 
             </ol>
+
         </div>
 
-        <div>
-            <h2 class="skill">
+        <div class="item">
+            <h3 class="skill">
                 Soft
 
             </h2>
             <ul>
                 <li>Adaptability</li>
+
                 <li>Communicativeness</li>
+                <p> Have tutored Cegep classmates in Calculus and helped both students pass the class </p>
+                <p> Have fundraised up to 700$ through selling 3D printed accessories to proffessors and students to
+                    fund a self-reliant 3D printing community serving for educational purposes </p>
                 <li>Disciplined</li>
             </ul>
         </div>
     </div>
-    
+
 </body>
 
 </html>

@@ -1,0 +1,23 @@
+.skill {
+    font-weight: bold;
+
+}
+
+.link {
+    color: lightblue;
+    
+}
+#flex-container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+
+}
+
+#flex-container div{
+    
+}
+
+
+*{
+    background-color: azure;
+}
